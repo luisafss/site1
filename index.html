@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #ff5733;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        section h2 {
+            color: #ff5733;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+        }
+
+        .project {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+        }
+
+        .project h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .project p {
+            color: #666;
+        }
+
+        footer {
+            background: #ff5733;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer-link {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer-link:hover {
+            color: #ffe066;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Eu sou um desenvolvedor web com paixão por criar sites bonitos e funcionais.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projetos</h2>
+            <div class="project">
+                <h3>Projeto 1</h3>
+                <p>Descrição do Projeto 1. Este projeto foi desenvolvido utilizando HTML, CSS e JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Projeto 2</h3>
+                <p>Descrição do Projeto 2. Este projeto foi desenvolvido utilizando HTML, CSS e Bootstrap.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Meu Portfólio. Todos os direitos reservados. | <a class="footer-link" href="#contact">Contato</a></p>
+    </footer>
+</body>
+</html>
+
